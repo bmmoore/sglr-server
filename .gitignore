@@ -1,3 +1,3 @@
 *.o
 *.a
-sglr/sglr-server/src/sglr-server
+sglr-server/src/sglr-server
