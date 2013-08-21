@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\AsFix.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lift.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lower.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT_dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-ambtracker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-annotations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-apply.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-args.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-characters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-flatten.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-implode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-layout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-length.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-ordering.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-origins.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-posinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-productions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-renaming.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-start.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-symbols.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-visitors.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-yield.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MEPT-yieldprod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PTMEPT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PTMEPT_dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\MEPT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-ambtracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-annotations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-apply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-args.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-characters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-flatten.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-implode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-layout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-length.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-ordering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-origins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-posinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-productions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-renaming.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-start.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-symbols.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-visitors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-yield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MEPT-yieldprod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PTMEPT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PTMEPT_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PTMEPT-utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
